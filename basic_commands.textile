@@ -1,0 +1,40 @@
+h3. CORE COMMANDS
+
+| cd | Home directory |
+| cd [folder] | Change directory |
+| cd ~ | Home directory, e.g. 'cd ~/folder/' |
+| cd / | Root of drive |
+| ls | Short listing |
+| ls -l | Long listing |
+| ls -a | Listing incl. hidden files |
+| ls -lh | Long listing with Human readable file sizes |
+| ls -R | Entire content of folder recursively |
+| sudo [command] | Run command with the security privileges of the 
+superuser (Super User DO) |
+| open [file] | Opens a file |
+| open . | Opens the directory |
+| top | Displays active processes. Press q to quit |
+| nano [file] | Opens the Terminal it's editor |
+| q | Exit |
+| clear | Clear screen |
+
+h3. FILE MANAGEMENT
+
+| touch [file] | Create new file |
+| pwd | Full path to working directory |
+| cd ../../ | Move 2 levels up |
+| . | Current folder |
+| cat | Concatenate to screen |
+| rm [file] | Remove a file, e.g. rm [file] [file] |
+| rm -r [dir] | Remove a directory and contents |
+| cp [file] [newfile] | Copy file to file |
+| cp [file] [dir] | Copy file to directory |
+| mv [file] [new filename] | Move/Rename, e.g. mv -v [file] [dir] |
+
+h3. DIRECTORY MANAGEMENT
+
+| mkdir [dir] | Create new directory |
+| mkdir -p [dir]/[dir] | Create nested directories |
+| rmdir [dir] | Remove directory ( only operates on empty directories ) |
+| rm -R [dir] | Remove directory and contents |
+

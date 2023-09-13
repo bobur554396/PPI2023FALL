@@ -19,7 +19,6 @@ int main(){
     incorrect names:
         12num, 12, number%$!, my number,
         "reserved words from PL" - int, return
-        
     */
 
     int first = 2;

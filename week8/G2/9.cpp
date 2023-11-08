@@ -8,7 +8,7 @@ int main(){
     // stringstream
     stringstream ss;
 
-    ss << "100" << "hello " << "2.6";
+    ss << "100 " << "hello " << "2.6 ";
 
     int a;
     string s;
@@ -18,5 +18,6 @@ int main(){
 
     cout << a + 2 << endl << s << endl << f * 2 << endl;
 
+    // "hel12lok25btu"
     return 0;
 }
